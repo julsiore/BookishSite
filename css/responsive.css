@@ -1,0 +1,43 @@
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    ol, ul {
+        width: 90%;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    ol, ul {
+        width: 100%;
+        padding: 3%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
